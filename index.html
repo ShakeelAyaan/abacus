@@ -1,441 +1,365 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <!-- Link Css -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <!-- Link Css -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+      <!-- FontAsown  -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+      <!-- COSTUM LINK -->
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="css/btn.css">
+      <link rel="stylesheet" href="./css/English_section.css"/>
+      <link rel="stylesheet" href="./css/custom.css"/>
+      </head>
 
-    
-  <!-- FontAsown  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <!-- COSTUM LINK -->
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="css/btn.css">
-  <link rel="stylesheet" href="./css/English_section.css"/>
-  <link rel="stylesheet" href="./css/slider.css"/>
-</head>
+      <body>
 
-<body>
- <!-- new slider start -->
-
- <div class="slider">
-  <div class="slides">
-       
-   <div class="slide"><img src="./SliderImg/abacus-3116200_1920.jpg" alt="Slide 1"></div>
-   <div class="slide"><img src="./SliderImg/boys-286245_1920.jpg" alt="Slide 2"></div>
-   <div class="slide"><img src="./SliderImg/child-316510_1280.jpg" alt="Slide 3"></div>
-  </div>
-  
-  <div class="slider-btn prev" onclick="changeSlide(-1)">&#10094;</div>
-  <div class="slider-btn next" onclick="changeSlide(1)">&#10095;</div>
-  
-  <div class="dots">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-  </div>
-</div>
-
-<!-- new slideer end -->
-
-  <div class="Header">
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+      <div class="Header">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href=""><img src="Logo.jpg" alt="Education" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="">Home</a>
-            </li>
-           
-            <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Courses
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Abacus Course</a></li>
-                  <li><a class="dropdown-item" href="#">English Speaking Course</a></li>
-                  <li><a class="dropdown-item" href="#">Chat GPT Course</a></li>
-                </ul>
-              </li> -->
+      <a  class="navbar-brand" href=""><img src="Logo.jpg" alt="Education" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+      <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="">Home</a>
+      </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#" onclick="scrollToCourses()">Courses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About us </a>
-              </li>
-          
-         
-            <li class="nav-item">
-              <a class="nav-link" href="contacts.html">Contact us</a>
-            </li>
-          </ul>
-          <!-- <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
-        </div>
+      <!-- <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Courses
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <li><a class="dropdown-item" href="#">Abacus Course</a></li>
+      <li><a class="dropdown-item" href="#">English Speaking Course</a></li>
+      <li><a class="dropdown-item" href="#">Chat GPT Course</a></li>
+      </ul>
+      </li> -->
+
+      <li class="nav-item">
+      <a class="nav-link" href="#" onclick="scrollToCourses()">Courses</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#">About us </a>
+      </li>
+
+
+      <li class="nav-item">
+      <a class="nav-link" href="contacts.html">Contact us</a>
+      </li>
+      </ul>
+      <!-- <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> -->
       </div>
-    </nav>
-  </div>
+      </div>
+      </nav>
+      </div>
 
 
-  
 
-  <!-- caursole Deployement -->
 
-  <div id="carouselExample" class="carousel carousel-dark slide" data-bs-ride="carousel">
-    <div class="carousel-inner pb-3">
+      <!-- caursole Deployement -->
+
+      <div id="carouselExample" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner pb-3">
       <div class="carousel-item active">
-        <div class="row bg-primary pt-5 " style="background-color: whitesmoke;">
-          <div class="col-md-6 d-flex align-items-center justify-content-center text-center">
-            <div class="carousel-text" style="margin-left: 18%;">
-                <h1 class="text" style="color: black; font-weight: 700; font-size: 50px;">EMPOWER LEARNING <br>WITH<span style="color: white;">  CHAT GPT </span></h1>
-                <h3 style="color: black;">Transforming Education at<br>Bright Future Academy</h3>
-            </div>
-        </div>
-        
-          <div class="col-md-6">
-            <img src="Boy_Image-1.png" class=" float-right" style="margin-left: 1%;" alt="Slide 1 Image" />
-          </div>
-        </div>
+      <div class="row bg-primary pt-5 " style="background-color: whitesmoke;">
+      <div class="col-md-6 d-flex align-items-center justify-content-center text-center">
+      <div class="carousel-text" style="margin-left: 18%;">
+      <h1 class="text" style="color: black; font-weight: 700; font-size: 50px;">EMPOWER LEARNING <br>WITH<span style="color: white;">  CHAT GPT </span></h1>
+      <h3 style="color: black;">Transforming Education at<br>Bright Future Academy</h3>
+      </div>
+      </div>
+
+      <div class="col-md-6">
+      <img src="Boy_Image-1.png" class=" float-right" style="margin-left: 1%;" alt="Slide 1 Image" />
+      </div>
+      </div>
       </div>
       <div class="carousel-item">
-        <div class="row bg-info bg-gradient pt-5">
-          <div class="col-md-6 d-flex align-items-center justify-content-center">
-            <div class="carousel-text text-center" style="margin-left: 18%;"> <!-- Adjusted margin-right -->
-              <h2 class="text" style="color: black; font-weight: 700; font-size: 50px;">MASTER ENGLISH <br>WITH EXCELLENCE</h2>
-              <h3 style="color: black;">Elevate Your Language Skills at <br><span style="color: white;">Bright Future Academy</span></h3>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img src="Girls_Image-2.png" class="float-right" style="margin-left: 5%; " alt="Slide 2 Image" />
-          </div>
-        </div>
+      <div class="row bg-info bg-gradient pt-5">
+      <div class="col-md-6 d-flex align-items-center justify-content-center">
+      <div class="carousel-text text-center" style="margin-left: 18%;"> <!-- Adjusted margin-right -->
+      <h2 class="text" style="color: black; font-weight: 700; font-size: 50px;">MASTER ENGLISH <br>WITH EXCELLENCE</h2>
+      <h3 style="color: black;">Elevate Your Language Skills at <br><span style="color: white;">Bright Future Academy</span></h3>
       </div>
-      
-      
-      
+      </div>
+      <div class="col-md-6">
+      <img src="Girls_Image-2.png" class="float-right" style="margin-left: 5%; " alt="Slide 2 Image" />
+      </div>
+      </div>
+      </div>
+
+
+
       <!-- Add more carousel items as needed -->
       <div class="carousel-item">
-        <div class="row bg-warning bg-gradient pt-5">
-          <div class="col-md-6 d-flex align-items-center justify-content-center">
-            <div class="carousel-text text-center" style="margin-left: 18%;">
-              <h1 class=" text" style="color: black; font-weight: 700; font-size: 50px;">UNLOCKING POTENTIAL<br>
-                WITH ABACUS
-               </h1>
+      <div class="row bg-warning bg-gradient pt-5">
+      <div class="col-md-6 d-flex align-items-center justify-content-center">
+      <div class="carousel-text text-center" style="margin-left: 18%;">
+      <h1 class=" text" style="color: black; font-weight: 700; font-size: 50px;">UNLOCKING POTENTIAL<br>
+      WITH ABACUS
+      </h1>
 
-               <h3 style="color: black;"> Transforming Education at<br><span style="color: white;"> Bright Future Academy</span></h3>
-               
-              <!-- <p style="font-weight: bold;">Discover the magic of numbers with our Abacus course! Tailored for young learners, this course enhances cognitive skills and lays the foundation for mathematical success. Join us as we make learning math a joyful journey for your child.</p> -->
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img src="Abacus Kit.jpg" class=" float-right" style="margin-left: 5%; " alt="Slide 2 Image" />
-          </div>
-        </div>
+      <h3 style="color: black;"> Transforming Education at<br><span style="color: white;"> Bright Future Academy</span></h3>
+
+      <!-- <p style="font-weight: bold;">Discover the magic of numbers with our Abacus course! Tailored for young learners, this course enhances cognitive skills and lays the foundation for mathematical success. Join us as we make learning math a joyful journey for your child.</p> -->
+      </div>
+      </div>
+      <div class="col-md-6">
+      <img src="Abacus Kit.jpg" class=" float-right" style="margin-left: 5%; " alt="Slide 2 Image" />
+      </div>
+      </div>
       </div>
       <!-- c -->
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" style="z-index: 1050;">
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" style="z-index: 1050;">
       <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-     
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" style="z-index: 1050;">
+
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" style="z-index: 1050;">
       <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
       <!-- <span class="visually-hidden">Next</span> -->
-    </button>
-    
-  </div>
-      <!-- english section : homepage as shown as master english with excellence -->
+      </button>
+
+      </div>
+      <!--Start english section : homepage as shown as master english with excellence -->
 
       <section class="english_section">
 
-        <div class="english_section_childone">
-           <img src="./education.jpg" alt="english_section"/>
-        </div>
+      <div class="english_section_childone">
+      <img src="./education.jpg" alt="english_section"/>
+      </div>
 
-        <div class="english_section_childtwo">
-             <!-- <img class="english_section_child_img" src="./educ1.jpg"/> -->
-             <h1>MASTER ENGLISH WITH EXCELLENCE</h1>
-             <p>Elevate your Language skills at</p>
-             <h5 >"Bright Future Academy"</h5>
-        </div>
+      <div class="english_section_childtwo">
+      <img class="english_section_child_img" src="./images//pngtree-school-objects-blackboard-concept-clipart-blackboard-apple-vector-png-image_37101552.png"/>
+      <h1>MASTER ENGLISH WITH EXCELLENCE</h1>
+      <!-- <p>Elevate your Language skills at</p>
+      <h5 >"Bright Future Academy"</h5> -->
+      </div>
 
       </section>
+      <!-- End english section : homepage as shown as master english with excellence -->
 
       <!-- abacus section: homepage as shown as abacus mastery for young minds -->
       <section class="english_section">
 
-        <div class="english_section_childone">
-           <img src="./Abacus Kit.jpg" alt="english_section"/>
-        </div>
+      <div class="english_section_childone">
+      <img src="./Abacus Kit.jpg" alt="english_section"/>
+      </div>
 
-        <div class="english_section_childtwo">
-             <!-- <img class="english_section_child_img" src="./educ1.jpg"/> -->
-             <h1>abacus mastery for young minds</h1>
-             <p class="abacus_child">Discover the magic of numbers <br/> Tailored for young learners <br/> enhances cognitive skills <br/> lays the foundation for mathamatical success <br/> join us in making learning math a joyfull journey for your child</p>
-             <h5 >"Bright Future Academy"</h5>
-        </div>
-
+      <div class="english_section_childtwo">
+      <img class="english_section_child_img" src="https://png.pngtree.com/png-vector/20220614/ourmid/pngtree-school-objects-blackboard-concept-clipart-blackboard-apple-vector-png-image_37101552.png"/>
+      <h1>abacus mastery for young minds</h1>
+      <!-- <p class="abacus_child">Discover the magic of numbers <br/> Tailored for young learners <br/> enhances cognitive skills <br/> lays the foundation for mathamatical success <br/> join us in making learning math a joyfull journey for your child</p>
+      <h5 >"Bright Future Academy"</h5>
+      </div> -->
       </section>
+      <!--End abacus section: homepage as shown as abacus mastery for young minds -->
+   
+       <!--start custome own self desing for your pattern -->
+       
+        <div class="customParent">
+            <div class="custom_child">
+                  <h1>Our vision is our passion </h1>
+                  <img class="custome one"  src="./images/download.png"/>
+            </div>
+            <div class="custom_child">
+                  <h1>Our vision is our passion </h1>
+                  <img class="custome two" src="./images/download (3).jfif"/>
+            </div>
+            <div class="custom_child">
+                  <h1>Our vision is our passion </h1>
+                  <img class="custome three" src="./images/download (4).jfif" /> 
+            </div>
+            <div class="custom_child">
+                  <h1>Our vision is our passion </h1>
+              <img class="custome four" src="./images/download (5).jfif"/>
+            </div>
+        </div>
+        
+      <!--end custome own self desing for your pattern -->
+
 
       <!-- abacus english Chatgpt Navigation -->
-  <div  id="courses-section">
-  
-  <div style="margin-top:300px;">
- 
-    <div class="tab-Education d-flex justify-content-center align-items-center">
+      <div  id="courses-section">
+      <div style="margin-top:300px;">
+      <div class="tab-Education d-flex justify-content-center align-items-center">
       <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <button class="nav-link1" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-            type="button" role="tab" aria-controls="pills-home" aria-selected="true">Abacus</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link1" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
-            type="button" role="tab" aria-controls="pills-profile" aria-selected="false">English Speaking</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link1" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-            type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Chat
-            GPT</button>
-        </li>
+      <li class="nav-item" role="presentation">
+      <button class="nav-link1" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+      type="button" role="tab" aria-controls="pills-home" aria-selected="true">Abacus</button>
+      </li>
+      <li class="nav-item" role="presentation">
+      <button class="nav-link1" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+      type="button" role="tab" aria-controls="pills-profile" aria-selected="false">English Speaking</button>
+      </li>
+      <li class="nav-item" role="presentation">
+      <button class="nav-link1" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+      type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Chat
+      GPT</button>
+      </li>
       </ul>
-    </div>
+      </div>
 
-
-   
-    <div class="section  tab-content "  >
-
-     
-
+      <div class="section  tab-content "  >
       <div class="tab-pane fade show active fs-3 fw-lighttext-center  " id="pills-home" role="tabpanel"
-      
-        aria-labelledby="pills-home-tab" style="padding: 40px;"><span class="Abacus fw-bold fs-1 text-center text-uppercase">Abacus
-          Program</span></br><span class="text-dark text-center ">	Discover the magic of numbers with our Abacus course! 
-            Tailored for young learners, this course enhances cognitive skills and lays the foundation for mathematical success. Join us as we make learning math a joyful journey for your child.</span>
-        
-       
+      aria-labelledby="pills-home-tab" style="padding: 40px;"><span class="Abacus fw-bold fs-1 text-center text-uppercase">Abacus
+      Program</span></br><span class="text-dark text-center ">	Discover the magic of numbers with our Abacus course! 
+      Tailored for young learners, this course enhances cognitive skills and lays the foundation for mathematical success. Join us as we make learning math a joyful journey for your child.</span>
       </div>
-     
+
       <div class="tab-pane fade fs-3 fw-light " id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" style="padding: 0px;">
-        <span class="Abacus fw-bold fs-1 text-center text-uppercase">English Speaking Course</span></br><span>	Watch your child blossom into a confident communicator with our English Speaking course. Through interactive activities and engaging lessons, we empower children to express themselves fluently and with ease.</span></div>
+      <span class="Abacus fw-bold fs-1 text-center text-uppercase">English Speaking Course</span></br><span>	Watch your child blossom into a confident communicator with our English Speaking course. Through interactive activities and engaging lessons, we empower children to express themselves fluently and with ease.</span></div>
       <div class="tab-pane fade fs-3 fw-light " id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" style="padding: 40px;">
-        <span class="Abacus fw-bold fs-1 text-center text-uppercase">Chat GPT Program</span></br><span>Unleash creativity with our Chat GPT course – a unique learning experience for the tech-savvy minds of the future! Children embark on a journey of creative expression and communication in the digital age. </span></div>
-    </div>
-    
+      <span class="Abacus fw-bold fs-1 text-center text-uppercase">Chat GPT Program</span></br><span>Unleash creativity with our Chat GPT course – a unique learning experience for the tech-savvy minds of the future! Children embark on a journey of creative expression and communication in the digital age. </span></div>
+      </div>
 
-    <div style="margin-top: 100px; display: flex; justify-content: center; align-items: center;">
+
+      <div style="margin-top: 100px; display: flex; justify-content: center; align-items: center;">
       <div style="max-width: 90%; padding: 25px; background-color: #f9f9f9; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif;">
-        <h2 style="color: #204778; text-align: center; font-size: 27px; margin-bottom: 20px; font-weight: bold;">Discover the advantages of learning with us!</h2>
-        <ul style="padding: 0;">
-          <li style="margin-bottom: 20px;">
-            <h4 style="color: #204778; font-size: 18px; font-weight: bold;">Expert Teachers at Your Service:</h4>
-            <ul style="padding-left: 20px;">
-              <li style="font-size: 16px;">Our passionate and qualified teachers are the heart of our learning community.</li>
-              <li style="font-size: 16px;">Committed to providing personalized attention, they ensure your child's success is not just a goal but a guarantee!</li>
-            </ul>
-          </li>
-          <li style="margin-bottom: 20px;">
-            <h4 style="color: #204778; font-size: 18px; font-weight: bold;">Interactive Learning Adventures</h4>
-            <ul style="padding-left: 20px;">
-              <li style="font-size: 16px;">At Bright Future Academy, we believe in learning by doing, not just listening.</li>
-              <li style="font-size: 16px;">Our courses are designed to be interactive, turning education into a thrilling adventure where children actively participate and engage with the learning process.</li>
-            </ul>
-          </li>
-          <li style="margin-bottom: 20px;">
-            <h4 style="color: #204778; font-size: 18px; font-weight: bold;">Safe and Supportive Environment</h4>
-            <ul style="padding-left: 20px;">
-              <li style="font-size: 16px;">We understand that your child's well-being is your top priority, and it's ours too!</li>
-              <li style="font-size: 16px;">Our classes provide a safe and supportive space, fostering an environment where effective learning flourishes, and every child feels secure to explore their potential.</li>
-            </ul>
-          </li>
-        </ul>
+      <h2 style="color: #204778; text-align: center; font-size: 27px; margin-bottom: 20px; font-weight: bold;">Discover the advantages of learning with us!</h2>
+      <ul style="padding: 0;">
+      <li style="margin-bottom: 20px;">
+      <h4 style="color: #204778; font-size: 18px; font-weight: bold;">Expert Teachers at Your Service:</h4>
+      <ul style="padding-left: 20px;">
+      <li style="font-size: 16px;">Our passionate and qualified teachers are the heart of our learning community.</li>
+      <li style="font-size: 16px;">Committed to providing personalized attention, they ensure your child's success is not just a goal but a guarantee!</li>
+      </ul>
+      </li>
+      <li style="margin-bottom: 20px;">
+      <h4 style="color: #204778; font-size: 18px; font-weight: bold;">Interactive Learning Adventures</h4>
+      <ul style="padding-left: 20px;">
+      <li style="font-size: 16px;">At Bright Future Academy, we believe in learning by doing, not just listening.</li>
+      <li style="font-size: 16px;">Our courses are designed to be interactive, turning education into a thrilling adventure where children actively participate and engage with the learning process.</li>
+      </ul>
+      </li>
+      <li style="margin-bottom: 20px;">
+      <h4 style="color: #204778; font-size: 18px; font-weight: bold;">Safe and Supportive Environment</h4>
+      <ul style="padding-left: 20px;">
+      <li style="font-size: 16px;">We understand that your child's well-being is your top priority, and it's ours too!</li>
+      <li style="font-size: 16px;">Our classes provide a safe and supportive space, fostering an environment where effective learning flourishes, and every child feels secure to explore their potential.</li>
+      </ul>
+      </li>
+      </ul>
       </div>
-    </div>
-    
-  </div>
+      </div>
+
+      </div>
 
 
 
 
-<div style="text-align: center; margin-top: 40px;">
-  <h2 style="color: #204778; text-align: center; font-size: 27px; margin-bottom: 20px; font-weight: bold;">Join us on this exciting journey of discovery, where learning is not just a destination but a joyous experience!</h2>
-  <button style="padding: 10px; background-color: #204778; color: white; border-radius: 10px; font-size: 21px; margin: 20px;">Get Started Now</button>
-</div>
-
-   
-  </div>
-
-  <!-- discover advantages with us start  -->
-        <!-- <div>
-               <h1>Discover the advantages of learning width us</h1>
-               <div>
-
-            <ul>
-              <li><h2>expert teacher at your Service</h2></li>
-              <li>Our passionate or qualified teachers the heart of our learning comunity</li>
-              <li>commited to providing personalized attention they ensure your child success is not just a goal but guarantee!</li>
-            </ul>
-            <ul>
-              <li><h2>interactive learning adventure</h2></li>
-              <li>in Bright future Academy : we believe in learning by doing not just listening</li>
-              <li> our courses are designed to be interactive turning education into a thirilling adventure where childrenactively partcipate ad engage with learning process </li>
-            </ul>
-            <ul>
-              <li><h2>safe and supportive environment</h2></li>
-              <li>we understand thats your childs well being is your top priority and its our too!</li>
-              <li>our classes provide safe and supportive space fostering and environment where effective learning flourishes and evry child feels secure to explore thier potential</li>
-            </ul>
-               </div>
-                 <div>
-                  <h1>Join us with exciting journey of discovery where learning is not just a destination but joyfull experience!</h1>
-                  <button>Get start now</button>
-                 </div>
-        </div> -->
-          
-    <!-- discover advantages with us start  -->
-
-  
-
-  <!-- Testmoinal Section -->
-
- 
-
-  <!-- Carousel wrapper -->
-
-  <!-- footer -->
+      <div style="text-align: center; margin-top: 40px;">
+      <h2 style="color: #204778; text-align: center; font-size: 27px; margin-bottom: 20px; font-weight: bold;">Join us on this exciting journey of discovery, where learning is not just a destination but a joyous experience!</h2>
+      <button style="padding: 10px; background-color: #204778; color: white; border-radius: 10px; font-size: 21px; margin: 20px;">Get Started Now</button>
+      </div>
 
 
-  <footer style="text-align: center;">
-    <div class="container-fluid footer-text" style="padding-left: 20px; padding-right: 20px;">
+      </div>
+
+      <!-- Testmoinal Section -->
+
+
+
+      <!-- Carousel wrapper -->
+
+
+      <!-- footer -->
+
+      <footer style="text-align: center;">
+      <div class="container-fluid footer-text" style="padding-left: 20px; padding-right: 20px;">
       <div class="row justify-content-center">
-        <div class="col-lg-3 col-sm-6">
-          <div class="single-box">
-            <img src="Logo.jpg" alt="">
-            <p>"Bright Future Academy: Shaping Future Leaders with Excellence in English, Abacus, and Chat GPT Innovation."</p>
-            <h3>Follow us:</h3>
-            <div class="card-area">
-              <i class="fab fa-instagram"></i>
-              <i class="fab fa-facebook"></i>
-              <i class="fab fa-twitter"></i>
-              <i class="fab fa-youtube"></i>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col-lg-3 col-sm-6">
-          <div class="single-box">
-            <h2>Courses</h2>
-            <ul>
-              <li><a href="#">Abacus</a></li>
-              <li><a href="#">English Speaking</a></li>
-              <li><a href="#">Chatgpt</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="single-box">
-            <h2>Address</h2>
-            <p>Kodoll Sr No 33/40/3b, Plot No 6,hall No St 03 Uncle Corner Amarixmi Chowk Satara 415002</p>
-  
-            <h2>Contact us</h2>
-            <ul>
-              <li>abc@gmail.com</li>
-              <li>+919999999999</li>
-              <li>+919999999999</li>
-            </ul>
-          </div>
-        </div>
+      <div class="col-lg-3 col-sm-6">
+      <div class="single-box">
+      <img src="Logo.jpg" alt="">
+      <p>"Bright Future Academy: Shaping Future Leaders with Excellence in English, Abacus, and Chat GPT Innovation."</p>
+      <h3>Follow us:</h3>
+      <div class="card-area">
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-youtube"></i>
       </div>
-    </div>
-  </footer>
-  
+      </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6">
+      <div class="single-box">
+      <h2>Courses</h2>
+      <ul>
+      <li><a href="#">Abacus</a></li>
+      <li><a href="#">English Speaking</a></li>
+      <li><a href="#">Chatgpt</a></li>
+      </ul>
+      </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+      <div class="single-box">
+      <h2>Address</h2>
+      <p>Kodoll Sr No 33/40/3b, Plot No 6,hall No St 03 Uncle Corner Amarixmi Chowk Satara 415002</p>
+
+      <h2>Contact us</h2>
+      <ul>
+      <li>abc@gmail.com</li>
+      <li>+919999999999</li>
+      <li>+919999999999</li>
+      </ul>
+      </div>
+      </div>
+      </div>
+      </div>
+      </footer>
 
 
 
-  <!-- Bootstrap Js File -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-       <!-- <script type="module" src="./slider.js"></script> -->
-    <script>
+
+      <!-- Bootstrap Js File -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+      <script>
+
       // Add this JavaScript for automatic selection
       document.addEventListener('DOMContentLoaded', function () {
-        var tabs = new bootstrap.Tab(document.getElementById('pills-home-tab')); // Change to the desired default tab
-        tabs.show();
-  
-        var tabButtons = document.querySelectorAll('.nav-link1');
-  
-        tabButtons.forEach(function (button) {
-          button.addEventListener('click', function () {
-            tabButtons.forEach(function (btn) {
-              btn.classList.remove('active');
-            });
-            button.classList.add('active');
-          });
-        });
-      });
-    </script>
+      var tabs = new bootstrap.Tab(document.getElementById('pills-home-tab')); // Change to the desired default tab
+      tabs.show();
 
-<script>
-function scrollToCourses() {
-  var navbarHeight = document.querySelector('.tab-Education').offsetHeight; // Get the height of the navbar
-  var coursesSection = document.getElementById('courses-section');
-  if (coursesSection) {
-    window.scrollTo({
+      var tabButtons = document.querySelectorAll('.nav-link1');
+
+      tabButtons.forEach(function (button) {
+      button.addEventListener('click', function () {
+      tabButtons.forEach(function (btn) {
+      btn.classList.remove('active');
+      });
+      button.classList.add('active');
+      });
+      });
+      });
+      </script>
+
+      <script>
+      function scrollToCourses() {
+      var navbarHeight = document.querySelector('.tab-Education').offsetHeight; // Get the height of the navbar
+      var coursesSection = document.getElementById('courses-section');
+      if (coursesSection) {
+      window.scrollTo({
       top: coursesSection.offsetTop - navbarHeight, // Adjusted scroll position to include navbar height
       behavior: "smooth"
-    });
-  }
-}
-// start sliding
-let slideIndex = 1;
-  showSlides(slideIndex);
-  
-  function changeSlide(n) {
-    showSlides(slideIndex += n);
-  }
-  
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-  
-  function showSlides(n) {
-    const slides = document.querySelectorAll('.slide');
-    const dots = document.querySelectorAll('.dot');
-    
-    if (n > slides.length) {
-      slideIndex = 1;
-    }
-    if (n < 1) {
-      slideIndex = slides.length;
-    }
-    
-    for (let i = 0; i < slides.length; i++) {
-      slides[i].style.display = 'none';
-    }
-    for (let i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(' active', '');
-    }
-    
-    slides[slideIndex - 1].style.display = 'block';
-    dots[slideIndex - 1].className += ' active';
-  }
-  
-  setInterval(() => {
-    changeSlide(1);
-  }, 2000);
-// end sliding
-</script>
-</body>
+      });
+      }
+      }
+     
+      </script>
+      </body>
 
-</html>
+      </html>

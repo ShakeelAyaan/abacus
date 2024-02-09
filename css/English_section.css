@@ -2,54 +2,63 @@
     width: 100vw;
     height: max-content;
     display: flex;
-    justify-content: space-around;
-    gap:0.5rem;
-    padding-left: 3px;
-    padding-right:3px;  
-    margin-bottom: 1rem;
+    justify-content: space-between;
+    /* row-gap:3.5rem; */
+    column-gap: 0.5rem;
+    /* padding-left: 3px; */
+    /* padding-right:3px;   */
+    margin-bottom:0.9rem;
 }
 
 .english_section_childone{
     width:90%;
     align-items: center;
+    height:500px;
+    box-shadow: 2px 2px 21px 2px rgb(255, 241, 241);
 
 }
 
 .english_section_childtwo{
     align-items: center;
     text-align: center;
-    background:gainsboro;
     background:linear-gradient(40deg  , rgb(4, 43, 149) 42%, rgb(0, 0, 0) 44% ,rgb(38, 181, 35) 34%);
-    padding-top:10%;
+    /* padding-top:3%; */
     color:rgb(255, 255, 255);
     text-transform: uppercase;
-    /* font-size: 45px; */
     border-radius: 15px;
     width:90%;
+    /* height:500px; */
     align-items: center;
-    /* line-height: 35px; */
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    box-shadow: 2px 2px 21px 2px rgb(92, 87, 87);
+
 }
 .english_section_childtwo > img{
-  width:300px;
-  height:300px;
-  border-radius: 500px; 
-  /* border: 2px solid wheat; */
+  /* width:300px; */
+  /* height:300px; */
+  border-radius:30px; 
+  border: 2px solid wheat;
   border-color: transparent;
-  box-shadow: 2px 2px 21px 2px rgb(255, 241, 241);
 
 }
 
 .english_section_childone > img{
     width:100%;
+    height: 500px;
     border-radius: 15px;
+    box-shadow: 2px 2px 21px 2px rgb(64, 59, 59);
 
 }
+.english_section_childtwo h1{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size:3rem;
+}
+
 @media screen and (max-width:768px) {
  .english_section{
     display: grid;
     grid-template-rows: auto auto;
     width: 100%;
+    row-gap:0.9rem;
  }   
  .english_section_childone{
     width: 100%
@@ -57,39 +66,9 @@
  .english_section_childtwo{
     width: 100%;
     color :white;
-    
-    /* padding:0.5rem; */
-    /* height: max-content */
-    
-
  }
- .english_section_childtwo h1 {
-    font-size:30px;
-    font-weight: 800px;
-    line-break:loose;
-    line-height:33px;
-    padding-bottom:0.5rem;
- }
- .english_section_childtwo h5{
-    font-size:20px;
-    font-weight: 100px;
-    line-break:loose;
-    padding-bottom:2rem;
-
-    /* line-height:53px; */
- }
- .english_section_childtwo p{
-    font-size:15px;
-    font-weight: 800px;
-    line-break:loose;
-    color:rgb(255, 255, 255);
-    padding-bottom:2rem;
-    text-decoration:underline;
-    text-decoration:wavy;
-    line-height: 22px;
-
-    /* line-height:53px; */
- }
+ 
+ 
  
  
 
