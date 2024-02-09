@@ -34,7 +34,7 @@ margin-bottom: 0.7rem;
 
 }
 
-@media screen and (max-width:768px) {
+@media only screen and (max-width:768px) {
     .customParent{
         display:grid;
         row-gap:8rem;
@@ -43,7 +43,7 @@ margin-bottom: 0.7rem;
     .custome{
         width: 100%;
     }
-    
+
     .custom_child{
         width: 100%;
         column-gap: 1rem;
