@@ -40,14 +40,16 @@ margin-bottom: 0.7rem;
         row-gap:8rem;
         width: 100%;
     }
-    /* .custome{
+    .custome{
         width: 100%;
-    } */
+    }
+    
     .custom_child{
         width: 100%;
         column-gap: 1rem;
         row-gap: 1rem;
     }
+
     .one{
         animation: one ease-in-out 8s;
     }
@@ -56,6 +58,10 @@ margin-bottom: 0.7rem;
 
     }
     .four{
+        animation: two ease 8s;
+
+    }
+    .three{
         animation: two ease 8s;
 
     }

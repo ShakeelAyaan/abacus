@@ -73,9 +73,9 @@
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
-.navbar-brand > img{
+/* .navbar-brand > img{
   position: absolute;
   left:3px;
   top:0px;
   padding-bottom:6px;
-}
+} */
