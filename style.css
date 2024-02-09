@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    z-index: 1;
+    box-shadow: 0px 0px 4px 1px #000000;
+    background-color: white;
+}
+
+/* Header NavBar */
+.navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: #204778;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 15px;
+}
+
+.navbar-brand {
+    margin: 0 0 0 30px;
+}
+
+.carousel {
+    min-height: calc(100vh - 56px);
+  margin-top: 20px;
+}
+
+.carousel-text {
+    text-align: center;
+    color: whitesmoke;
+   
+}
+
+.row {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#carouselExample {
+    width: 100%;
+}
+
+/* 2 section */
+.home-wrapper {
+    margin-top: 80px;
+    padding-inline: 0px;
+}
+
+
+.col {
+    flex: 1 0 0%;
+}
+
+.tab-heading {
+    margin: 0px !important;
+}
+
+.card-header .nav-link {
+    padding: 10px 25px;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #000000CC;
+    border-radius: 16px;
+    border: 2px solid #16161633;
+}
+
+.card-header .nav-item .nav-link {
+    margin-right: 10px;
+}
+
+.card-header1 {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+}
+
+.container {
+    background-color: #bebebe;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.tab-Education {
+    margin-top: 150px;
+}
+
+.Abacus {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+footer .container-fluid {
+    background-color: #204778;
+    width: 100%;
+}
+
+.card-area {
+    color: rgb(255, 255, 255);
+}
+
+.footer-text .row {
+    color: white;
+}
+
+footer {
+    background: #204778;
+    padding: 86px 0;
+}
+
+.single-content {
+    text-align: center;
+    padding: 115px 0;
+}
+
+.single-box p {
+    color: #fff;
+    line-height: 1.9;
+}
+
+.single-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.single-box .card-area i {
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.single-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.single-box ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 2.5;
+    font-weight: 100;
+}
+
+.single-box h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#basic-addon2 {
+    background: #fe1e4f;
+    color: #fff;
+}
+
+.socials i {
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+@media (max-width: 767px) {
+    .single-box {
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-box {
+        margin-bottom: 50px;
+    }
+}
+
+.text-h1 {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.bg-warning {
+    background-color: rgb(182, 53, 53);
+}
+
+.bg-info {
+    background-color: white;
+}
+
+.bg-primary {
+    background-color: white;
+}
+
+.text-warning {
+    color: #204778 !important;
+    font-weight: 600;
+}
+
+.Text-h2 {
+    color: #204778;
+    font-weight: 600;
+}
+
+.Text-h2 {
+    color: #324158;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #204778;
+}
+
+.Welcome-container {
+    margin-top: 60px;
+}
+
+.text-uppercase .text-uppercase Text-h2 {
+    color: #204778;
+    font-weight: 600;
+}
+
+.text-para {
+    margin-top: 35px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #ffc107b8;
+    font-size: 20px;
+}
+
+.tab-content .tab-pane {
+    background-color: #ffc107f2;
+    border-radius: 25px;
+    width: 90%;
+}
+
+.tab-content .tab-pane {
+    background-color: #ffc107f2;
+    border-radius: 20px;
+    width: 75%;
+}
+
+.text-dark text-center {
+    margin-left: 10px;
+}
+
+.Abacus fw-bold fs-1 text-center text-uppercase {
+    color: #204778;
+}
+
+.Abacus {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: #204778;
+}
+
+.text-dark {
+    color: #212529 !important;
+    /* font-family: var(--bs-font-sans-serif); */
+}
+
+.body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.row.bg-warning.bg-gradient.pt-5 {
+    background-color: white;
+}
+
+
+.nav-link1 {
+    height: 60px;
+padding: 18px;
+text-align: center;
+    border: 1px solid lightgray; 
+    margin-right: 60px;
+    background-color: white;
+    border-radius: 10px;
+
+  }
+  @media (max-width: 768px) {
+    .nav-link1 {
+      margin-right: 5px; /* Adjusted margin for smaller screens */
+    }
+  }
+  .nav-link1.active {
+    background-color: #204778;
+    color: #fff; 
+    font-weight: 400;
+    border: 1px solid #204778; 
+  }
+  .section {
+    margin-top: 70px;
+  }
+
+  .tab-content {
+    position: relative;
+  }
+
+  /* Change color of carousel control icons to white */
+/* Zoom-in and Zoom-out animation for carousel items */
+/* Zoom-in and Zoom-out animation for carousel images */
+.carousel-item img {
+   
+    max-width: 90%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Zoom-in and Zoom-out animation for carousel images */
+  .carousel-item img {
+    animation: zoomInOut 10s infinite alternate; /* Adjust the duration as needed */
+  }
+  
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    /* Adjust the animation duration for smaller screens */
+    .carousel-item img {
+      animation-duration: 5s;
+    }
+  }
+
+  
+
+  
+
