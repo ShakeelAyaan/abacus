@@ -53,12 +53,13 @@
    font-size:3rem;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (min-width:400px) and (max-width:768px) {
  .english_section{
     display: grid;
     grid-template-rows: auto auto;
     width: 100%;
     row-gap:0.9rem;
+    padding: 20px;
  }   
  .english_section_childone{
     width: 100%

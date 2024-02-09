@@ -39,7 +39,7 @@ text-transform: uppercase;
 
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (min-width:400px) and (max-width:768px) {
     .customParent{
         display:grid;
         row-gap:8rem;
