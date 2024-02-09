@@ -66,7 +66,9 @@ margin-bottom: 0.7rem;
         animation: two ease 8s;
 
     }
-   
+   body{
+    width: 100%;
+   }
 }
 @keyframes one {
     0%{
@@ -78,3 +80,9 @@ margin-bottom: 0.7rem;
         transform: translateX(500px)
     }
 }
+body{
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;
+}
+
