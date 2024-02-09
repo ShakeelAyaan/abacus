@@ -2,7 +2,7 @@
     width: 400px;
     height: 400px;
     border-radius: 8px;
-    box-shadow: 2px 2px 21px 2px rgb(176, 180, 173);
+    box-shadow: 2px 2px 12px 2px rgb(15, 16, 15);
 
 }
 .customParent{
@@ -10,7 +10,7 @@
     justify-content: space-around;
     row-gap: 0.5rem;
     column-gap: 0.5rem;
-    background-color: rgb(0, 0, 0);
+    /* background-color:rgb(67, 67, 203); */
     padding: 1rem;
 }
 
@@ -21,16 +21,21 @@
   
 }
 .custom_child h1{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-font-size:2rem;
-color :white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-shadow: 1px 90px 50px rgb(15, 14, 14);
+text-decoration-line:overline;
+font-style: italic;
+font-weight: 800px;
+font-size:2.5rem;
+color :rgb(10, 186, 202);
 border: 2px solid wheat;
 border-radius: 8px;
-box-shadow: 2px 2px 21px 2px rgb(189, 191, 186);
+box-shadow: 2px 2px 12px 2px rgb(15, 16, 15);
 padding : 1rem;
 align-items: center;
 text-align: center;
 margin-bottom: 0.7rem;
+text-transform: uppercase;
 
 }
 
